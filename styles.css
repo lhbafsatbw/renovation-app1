@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Sidebar navigation styling */
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.nav-item.active {
+    background-color: rgb(243, 244, 246);
+    border-right: 2px solid rgb(59, 130, 246);
+}
+
+.nav-item:hover {
+    background-color: rgb(243, 244, 246);
+}
+
+/* Icon styling */
+.nav-item i {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+/* Ensure sidebar is fixed and scrollable if needed */
+#sidebar {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+/* Add space for the logout button */
+#sidebar nav {
+    padding-bottom: 60px;
+}
