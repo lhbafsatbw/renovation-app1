@@ -1,7 +1,7 @@
 # Renovation Management Application
 
 ## Overview
-A browser-based renovation project management application that runs entirely on the client side. This application enables contractors and subcontractors to manage renovation projects, track tasks, schedule work, and coordinate team activities without requiring a backend server.
+A PROTOTYPE browser-based renovation project management application that runs entirely on the client side. This application enables contractors and subcontractors to manage renovation projects, track tasks, schedule work, and coordinate team activities without requiring a backend server.
 
 ## Features
 - User authentication (mock data)
